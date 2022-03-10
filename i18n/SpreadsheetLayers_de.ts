@@ -15,7 +15,7 @@
     <message>
         <location filename="../widgets/SpreadsheetLayersDialog.py" line="233"/>
         <source>GDAL Virtual Format</source>
-        <translation type="unfinished"></translation>
+        <translation>GDAL Virtuell Format</translation>
     </message>
     <message>
         <location filename="../widgets/SpreadsheetLayersDialog.py" line="233"/>
@@ -26,7 +26,8 @@
         <location filename="../widgets/SpreadsheetLayersDialog.py" line="425"/>
         <source>Used GDAL version doesn&apos;t support VRT layers with sqlite dialect mixed with PointFromColumn functionality.
 For more informations, consult the plugin documentation.</source>
-        <translation type="unfinished"></translation>
+<translation type="unfinished">Die verwendete GDAL-Version unterstützt keine VRT-Layer mit SQLite in Verbindung mit PointFromColumn-Funktionalität.
+Für weitere Informationen bitte die Plugin-Dokumentation lesen.</translation>
     </message>
     <message>
         <location filename="../widgets/SpreadsheetLayersDialog.py" line="551"/>
@@ -86,12 +87,12 @@ For more informations, consult the plugin documentation.</source>
     <message>
         <location filename="../ui/ui_SpreadsheetLayersDialog.ui" line="164"/>
         <source>Header at first line</source>
-        <translation type="unfinished"></translation>
+        <translation>Überschrift in der ersten Zeile</translation>
     </message>
     <message>
         <location filename="../ui/ui_SpreadsheetLayersDialog.ui" line="184"/>
         <source>End of file detection</source>
-        <translation type="unfinished"></translation>
+        <translation>Dateiende erkennen</translation>
     </message>
     <message>
         <location filename="../ui/ui_SpreadsheetLayersDialog.ui" line="191"/>
@@ -101,7 +102,7 @@ For more informations, consult the plugin documentation.</source>
     <message>
         <location filename="../ui/ui_SpreadsheetLayersDialog.ui" line="202"/>
         <source>Geometry</source>
-        <translation type="unfinished"></translation>
+        <translation>Geometrie</translation>
     </message>
     <message>
         <location filename="../ui/ui_SpreadsheetLayersDialog.ui" line="217"/>
