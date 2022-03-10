@@ -20,6 +20,9 @@
  *                                                                         *
  ***************************************************************************/
 """
+from builtins import str
+from builtins import range
+
 import datetime
 import os
 import re
@@ -28,7 +31,7 @@ from pkg_resources import resource_filename
 from tempfile import gettempdir
 
 from osgeo import ogr
-from qgis.core import Qgis, QgsCoordinateReferenceSystem
+from qgis.core import Qgis, QgsVectorDataProvider, QgsCoordinateReferenceSystem
 from qgis.gui import QgsMessageBar
 from qgis.PyQt import QtCore, QtGui, QtWidgets, uic
 
@@ -592,8 +595,8 @@ class SpreadsheetLayersDialog(QtWidgets.QDialog, FORM_CLASS):
         self.setYField(yField)
 
         self.autoFill(self.geometryFieldComboBox, ["WKT", "WKB"])
-        self.autoFill(self.xFieldBox, ["longitude", "lon", "x"])
-        self.autoFill(self.yFieldBox, ["latitude", "lat", "y"])
+        self.autoFill(self.xFieldBox, ["longitude", "lon", "x", "ost", "rechts"])
+        self.autoFill(self.yFieldBox, ["latitude", "lat", "y", "nord", "hoch"])
 
     def autoFill(self, fieldComboBox, candidates):
         if fieldComboBox.currentIndex() != -1:
