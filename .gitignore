@@ -1,9 +1,22 @@
+# text editors temporary files
 *.swp
-*.pyc
 *~
+
+# python byte code files
+*.pyc
+.build
+/ui/resources_rc.py
+/ui/ui_*.py
+
+# deployment archives
+/*.zip
+
 
 .build
 .pytest_cache
 dist
 SpreadsheetLayers/help
 .coverage
+
+# lock files
+.~lock.*#
