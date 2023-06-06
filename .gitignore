@@ -1,16 +1,9 @@
-# python byte code files
-*.pyc
-.build
-/ui/resources_rc.py
-/ui/ui_*.py
-
-# deployment archives
-/*.zip
-
-# text editors temporary files
 *.swp
+*.pyc
 *~
 
-# nose testing output
-/.coverage
-/.noseids
+.build
+.pytest_cache
+dist
+SpreadsheetLayers/help
+.coverage
