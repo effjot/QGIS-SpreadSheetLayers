@@ -113,14 +113,14 @@ For an experimental release:
 .. code::
 
    version=X.Y.Z-alpha+build
-   experimental=False
+   experimental=True
 
 Or for a final release:
 
 .. code::
 
    version=X.Y.Z
-   experimental=True
+   experimental=False
 
 And create a new commit, tag, and push on GitHub:
 
